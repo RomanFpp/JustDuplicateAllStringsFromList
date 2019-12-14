@@ -18,7 +18,7 @@ public class DAO {
 
         public static ArrayList<String> doubledList(ArrayList<String> arrList) {
             ArrayList<String> tmList = new ArrayList<>();
-            for(int y = 0; y < 10; y ++){
+            for(int y = 0; y < arrList.size(); y ++){
                 tmList.add(arrList.get(y));
                 tmList.add(arrList.get(y));
             }
